@@ -43,6 +43,9 @@ img {
   width: 100%;
 }
 
+ul {
+  display: flex;
+}
 a {
   text-decoration: underline;
   color: #3783a3;
