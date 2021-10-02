@@ -17,12 +17,37 @@ html {
   font-style: normal;
 }
 
+@media only screen and (min-width: 60em) {
+
 body {
   margin: 0;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
   "banner banner banner"
+  "section section section"
   "main main main"
+}
+
+header {
+  display: grid;
+}
+
+h1 {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+}
+
+nav {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+header img {
+  grid-column: 1 / 4;
+  grid-row: 1;
 }
 
 img {
@@ -42,9 +67,11 @@ ul {
   display: flex;
   list-style-type: none;
 
+  justify-content:
 }
 
 a {
   text-decoration: underline;
   color: #3783a3;
+  z-index: 1;
 }
