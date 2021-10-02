@@ -42,18 +42,25 @@ body {
 img {
   width: 100%;
 
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
   grid-row: 1;
 }
 
 h1 {
   grid-column: 1;
   grid-row: 1;
+  z-index: 1;
+
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 nav {
   grid-column: 4;
   grid-row: 1;
+
+  z-index: 1;
 }
 
 ul {
