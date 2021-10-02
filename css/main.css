@@ -41,18 +41,23 @@ body {
 
 img {
   width: 100%;
-
-  grid-column: 1 / 5;
-  grid-row: 1;
 }
 
+header img {
+
+    grid-column: 1 / 5;
+    grid-row: 1;
+    align-self: flex-end;
+}
 h1 {
   grid-column: 1;
   grid-row: 1;
   z-index: 1;
 
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
+  padding: 1rem;
 
 }
 
