@@ -17,22 +17,26 @@ html {
   font-style: normal;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 62.5em) {
 
 body {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 20em 20em;
   grid-template-areas:
   "banner banner banner"
-  "section section section"
   "main main main"
 }
 
 .banner {
   display: grid;
   grid-area: banner;
+}
+
+.main {
+  display: grid;
+  grid-area: main;
 }
 
 img {
