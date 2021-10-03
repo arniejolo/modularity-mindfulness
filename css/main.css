@@ -32,44 +32,18 @@ img {
   width: 100%;
 }
 
+
 .banner {
   grid-area: banner;
-}
-
-h2 {
-  text-align: left;
-  padding: .5em 1em .6em;
-  grid-column: 1;
-  grid-row: 1;
-}
-
-nav {
-  grid-area: nav;
-}
-
-header > img {
-  grid-area: img;
-}
-
-blockquote {
 
 }
-ul {
-  display: flex;
-}
 
-ul > li {
-  display: flex;
+li {
   list-style-type: none;
-  justify-content: space-between;
 }
 
 a {
   text-decoration: underline;
   color: #3783a3;
   display: flex;
-}
-
-.center {
-  align-items: center;
 }
