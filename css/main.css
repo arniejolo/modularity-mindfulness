@@ -32,16 +32,23 @@ img {
   width: 100%;
 }
 
+header {
+  grid-area: banner;
+}
 
 nav {
-  grid-column:  5 / 6;
-  grid-row: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul {
-  list-style-type: none;
   display: flex;
-  align-items: space-between;
+  justify-content: flex-end;
+}
+
+ul > li {
+  list-style-type: none;
+  justify-content: space-between;
 }
 
 a {
