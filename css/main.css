@@ -17,48 +17,21 @@ html {
   font-style: normal;
 }
 
-@media only screen and (min-width: 62.5em) {
-
 body {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 20em 20em;
+  grid-template-rows: 30em 30em;
   grid-template-areas:
   "banner banner banner"
   "main main main"
 }
 
-.banner {
-  display: grid;
-  grid-area: banner;
-}
-
-.main {
-  display: grid;
-  grid-area: main;
-}
 
 img {
   width: 100%;
 }
 
-header > img {
-  grid-column: 1 / 6;
-}
-
-header > h2 {
-  grid-column: 1;
-  grid-row: 1;
-  align-self: flex-end;
-
-}
-header > h3 {
-  grid-column: 1;
-  grid-row: 1;
-  align-self: flex-end;
-  margin: 1.5rem;
-}
 
 nav {
   grid-column:  5 / 6;
