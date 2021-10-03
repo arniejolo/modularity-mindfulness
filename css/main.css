@@ -32,21 +32,34 @@ img {
   width: 100%;
 }
 
-header {
+.banner {
   grid-area: banner;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
+h2 {
+  text-align: left;
+  padding: .5em 1em .6em;
+  grid-column: 1;
+  grid-row: 1;
 }
 
+nav {
+  grid-area: nav;
+}
+
+header > img {
+  grid-area: img;
+}
+
+blockquote {
+
+}
 ul {
   display: flex;
-  justify-content: flex-end;
 }
 
 ul > li {
+  display: flex;
   list-style-type: none;
   justify-content: space-between;
 }
