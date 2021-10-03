@@ -45,10 +45,11 @@ img {
 
 header img {
 
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
     grid-row: 1;
     align-self: flex-end;
 }
+
 h1 {
   grid-column: 1;
   grid-row: 1;
@@ -62,19 +63,18 @@ h1 {
 }
 
 nav {
-  grid-column: 4;
+  grid-column:  5 / 6;
   grid-row: 1;
-
-  z-index: 1;
 }
 
 ul {
-  display: flex;
   list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 a {
   text-decoration: underline;
   color: #3783a3;
-  z-index: 1;
+  display: flex;
 }
