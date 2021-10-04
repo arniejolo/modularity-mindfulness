@@ -16,37 +16,3 @@ html {
   font-family: "Noto Sans JP", sans-serif;
   font-style: normal;
 }
-
-body {
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 30em 30em;
-  grid-template-areas:
-  "banner banner banner"
-  "main main main"
-}
-
-
-img {
-  width: 100%;
-}
-
-header {
-  grid-area: banner;
-}
-
-main {
-  grid-area: main;
-}
-
-
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: underline;
-  color: #3783a3;
-  display: flex;
-}
