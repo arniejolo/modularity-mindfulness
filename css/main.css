@@ -47,22 +47,27 @@ header > h1 {
   justify-content: center;
   margin: 0;
   padding: 0;
-
 }
 
 header > h2 {
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 header > nav {
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 nav > ul {
   display: flex;
   flex-direction: row;
+  padding: 0;
+  margin: 0;
 }
 
 nav > ul > li {
