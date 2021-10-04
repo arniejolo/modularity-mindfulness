@@ -93,7 +93,7 @@ a {
 main {
   display: grid;
   grid-area: main;
-  padding: 0;
+  padding: 1em;
   margin: 0;
 }
 
@@ -102,8 +102,8 @@ p {
 }
 
 main > section {
-  border-top: .2rem solid #000;
-  border-bottom: .2rem solid #000;
+  border-top: .2rem solid #e2e2e2;
+  border-bottom: .2rem solid #e2e2e2;
   margin-bottom: 1.5rem;
 }
 
@@ -124,9 +124,7 @@ main > section > p {
 }
 
 main > ul > li> img {
-  margin-bottom: 1.5rem;
-  padding-right: 1em;
-  padding-left: 1em;
+  margin-bottom: 1.5em;
 
 }
 
@@ -138,18 +136,20 @@ ul {
 
 
 ul > li > h2, h3 {
-  padding: 0 1em;
+  padding: 0;
   margin: 0;
 }
 
 ul > li > p {
-  padding: .5em 1em .6em;
+  padding: 0;
 }
 
 main > ul > li > a {
   text-decoration: none;
   border: .2rem solid #3783a3;
   border-radius: .3rem;
+  padding: .5em 1em .6em;
+  margin-bottom: 1.5rem;
 }
 
 
