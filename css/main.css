@@ -109,7 +109,7 @@ p {
 main > section {
   border-top: .2rem solid #e2e2e2;
   border-bottom: .2rem solid #e2e2e2;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 main > section > i {
@@ -141,14 +141,15 @@ ul {
 }
 
 
-ul > li > i, h2 {
-  padding: 0;
-  margin: 0;
+ul > li {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h2 {
   font-size: 1rem;
-  padding-bottom: 1rem;
 }
 
 ul > li > i {
@@ -168,6 +169,7 @@ main > ul > li > a {
   padding: .5em 1em .6em;
   margin-bottom: 1.5rem;
 }
+
 
 footer {
   font-size: 1rem;
