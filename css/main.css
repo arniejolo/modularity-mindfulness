@@ -17,13 +17,6 @@ html {
   font-style: normal;
 }
 
-header {
-  display: grid;
-  grid-template-row: 1fr 1fr 1fr;
-}
-
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row: 1fr 1fr;
+body {
+  margin: 0;
 }
