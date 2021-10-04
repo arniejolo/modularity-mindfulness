@@ -66,6 +66,7 @@ header > nav {
 nav > ul {
   display: flex;
   flex-direction: row;
+  color: #3783a3;
   padding: 0;
   margin: 0;
 }
@@ -73,9 +74,14 @@ nav > ul {
 nav > ul > li {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  padding: .5em;
 }
 
+a {
+  color: #3783a3;
+  display: flex;
+  justify-content: space-between;
+}
 
 
 main {
