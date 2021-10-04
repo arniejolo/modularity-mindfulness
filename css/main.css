@@ -148,10 +148,13 @@ ul > li {
   justify-content: space-between;
 }
 
-h2 {
-  font-size: 1rem;
+li > h2 {
+  font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
 }
 
+}
 ul > li > :lang(ja) {
   font-size: 1.5rem;
   font-weight: bolder;
