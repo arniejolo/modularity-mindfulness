@@ -67,8 +67,7 @@ header > nav {
 }
 
 header > img {
-  padding-bottom: .5rem;
-  padding-top: 0;
+  padding: 0.5em 0;
 }
 
 nav > ul {
