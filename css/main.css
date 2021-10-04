@@ -104,3 +104,11 @@ main > section > p {
   margin: 1.5rem;
   align-self: stretch;
 }
+
+ul {
+  list-style-type: none;
+}
+
+ul > img {
+  order: -1;
+}
