@@ -43,7 +43,7 @@ header > h1 {
   padding: 0;
   margin: 0;
 }
-header > h1 > :lang(ja) {
+header > h1 > i {
   display: flex;
   justify-content: center;
   font-size: 2rem;
@@ -112,7 +112,7 @@ main > section {
   margin-bottom: 1.5rem;
 }
 
-main > section > :lang(ja) {
+main > section > i {
   display: flex;
   justify-content: center;
   font-size: 2rem;
@@ -154,9 +154,9 @@ li > h2 {
   margin: 0;
 }
 
-}
-ul > li > :lang(ja) {
-  font-size: 1.5rem;
+
+ul > li > i {
+  font-size: 1rem;
   font-weight: bolder;
 }
 
