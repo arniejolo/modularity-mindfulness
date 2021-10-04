@@ -68,6 +68,10 @@ header > nav {
   margin: 0;
 }
 
+header > img {
+  padding-bottom: .5rem;
+}
+
 nav > ul {
   display: flex;
   flex-direction: row;
