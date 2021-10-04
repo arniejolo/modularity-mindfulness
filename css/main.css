@@ -88,3 +88,19 @@ main {
   display: grid;
   grid-area: main;
 }
+
+main > section > h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 0;
+  margin: 1.5rem;
+}
+
+main > section > p {
+  display: flex;
+  justify-content: center;
+  padding: .5em 1em .6em;
+  margin: 1.5rem;
+  align-self: stretch;
+}
