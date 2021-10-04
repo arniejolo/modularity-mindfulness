@@ -167,7 +167,7 @@ ul > li > p {
 main > ul > li > a {
   text-decoration: none;
   border: .2rem solid #3783a3;
-  opacity: 0.75;
+  opacity: 0.70;
   border-radius: .3rem;
   padding: .5em 1em .6em;
   margin-bottom: 1.5rem;
@@ -175,8 +175,8 @@ main > ul > li > a {
 
 
 footer {
-  font-size: 1rem;
-  padding-top: 1em;
+  font-size: .5rem;
+  padding: 1em;
   display: flex;
   justify-content: center;
   vertical-align: center;
