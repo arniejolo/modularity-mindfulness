@@ -118,6 +118,7 @@ main > section > h2 {
   display: flex;
   justify-content: center;
   font-size: 2rem;
+  font-weight: normal;
   padding: .5rem;
   margin: 0;
   text-align: center;
