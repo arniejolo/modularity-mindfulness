@@ -67,7 +67,8 @@ header > nav {
 }
 
 header > img {
-  padding: 0.5em 0;
+  padding-bottom: .5rem;
+  padding-top: 0;
 }
 
 nav > ul {
@@ -116,7 +117,7 @@ main > section > i {
   justify-content: center;
   font-size: 2rem;
   font-weight: normal;
-  padding: .5rem;
+  padding: .5rem .5rem 0 ;
   margin: 0;
   text-align: center;
 }
